@@ -1,0 +1,54 @@
+Exercises
+
+1. Is #include <stdio.h> the same as #include "stdio.h"?
+A: Angle brackets makes the preprocessor search for stdio.h outside the current directory
+but double quotes makes it search for the same file inside the current directory
+
+
+2.It's time for you to write your own first program. Referring to the program
+in Listing 2.1, write a C program that can print out a message: It's fun to write
+my own program in C.
+
+#include <stdio.h>
+
+int main(){
+	printf(" It's fun to write your own program in C.");
+	return 0;
+
+}
+
+3.Update the program in Listing 2.1 by adding one more newline character into
+the message printed out by the printf() function. You should see two lines of the message 
+on the screen after running the updated executable file:
+Howdy, neighbor!
+This is my first C program.
+
+A:  #include <stdio.h>
+
+int main()
+  {
+     printf ("Howdy, neighbor!\nThis is my first C program.\n");
+     return 0;
+  }
+
+4. What warning or error messages will you get when you're trying to compile the following program?
+
+#include <stdlib.h>
+#include <stdio.h>
+	main()
+	{
+	   printf ("Howdy, neighbor! This is my first C program.\n");
+	   exit(0);
+	}
+
+A: It will ask me to add a value type to main.
+
+5. What error messages will you get when you're trying to compile the following program?
+
+void main()
+{
+   printf ("Howdy, neighbor! This is my first C program.\n");
+   return 0;
+}
+
+A: Void means that main has no type value, and the return statement cannot return a value

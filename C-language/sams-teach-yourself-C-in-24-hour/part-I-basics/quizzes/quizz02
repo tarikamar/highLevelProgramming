@@ -1,0 +1,18 @@
+
+
+
+						Quizz
+
+	1.Can a C compiler see the comments within your C program?
+	Nope, because the code is expanded by the preprocessor, before compiling.
+	It's ignored by the compiler	
+
+	2.What kinds of files does a C compiler actually produce?
+	.o for object-code, understandable by the computer 	
+
+	3.Does the exit() function return a value? How about the return statement?
+	nope, the return statement return a value if the function is not a void type function	
+	
+	4.What is a header file ?
+	It's a file that includes external variables declarations, macro definitions,
+	function definitions and type definitions  

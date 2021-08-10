@@ -1,0 +1,32 @@
+Quiz
+
+1. In the C language, is 74 a constant? How about 571?
+Yes for both
+2. Is x = 570 + 1 an expression? How about x = 12 + y?
+True for both
+3. Are the following function names valid?
+  [T]        2methods
+  [T]        m2_algorithm
+  [F]        *start_function
+  [T]        Room_Size
+  [F]        .End_Exe
+  [T]        _turbo_add
+4. Is 2 + 5 * 2 equal to (2 + 5) * 2?
+	No 
+5. Does 7 % 2 produce the same result as 4 % 3?
+Yes
+
+#include <stdio.h>
+
+helper for 4. and 5.
+int a = 7 % 2;  
+int b = 4 % 3; 
+
+int main(){
+	if (a == b){
+		printf("It's equal\n");
+	}
+	else { printf("It's not equal\n");
+	}
+	return 0;	
+}

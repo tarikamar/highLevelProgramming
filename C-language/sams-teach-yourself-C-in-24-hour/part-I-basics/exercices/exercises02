@@ -1,0 +1,48 @@
+Exercises
+
+Given two statements, x = 3; and y = 5 + x;, how can you build a statement block with the two statements?
+{
+	int x;
+	int y;
+}
+int main(int x, int y){
+	x = 3;
+	y = 5 + x;
+	return y; 
+}
+
+
+What is wrong with the following function?
+int 3integer_add( int x, int y, int z)
+{
+   int sum;
+   sum = x + y + z;
+   return sum;
+}  
+A: you can't name a function with a number at the begining
+What is wrong with the following function?
+
+int integer_add( int x, int y, int z)
+{
+   int sum;
+   sum = x + y + z
+   return sum;
+}
+A : second statement lacks a semicolon 
+Write a C function that can multiply two integers and return the calculated result.
+
+int multiplyInt(int x, int y){
+	int result;
+	result = x*y;
+	return result;
+}
+
+Write a C program that calls the C function you just wrote in exercise 4 to calculate the multiplication of 3 times 5 and then print out the return value from the function on the screen.
+
+int main(){
+	int sum;
+	sum = multiplyInt(3, 5);
+	printf("3 multiplied by 5 %i\n", sum)
+	return 0;;
+}
+
