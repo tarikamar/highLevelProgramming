@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 
-int a = 7 % 2; 
-int b = 4 % 3; 
+int a = 134 / 100;
+int Tom's_methodb =  17 / 10; 
 
 int main(){
 	if (a == b){
@@ -11,4 +11,4 @@ int main(){
 	else { printf("It's not equal\n");
 	}
 	return 0;	
-}
+;

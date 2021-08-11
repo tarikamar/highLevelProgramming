@@ -1,0 +1,9 @@
+Exercises
+1. Write a program that prints out the numeric values of characters Z and z.
+2. Given two numeric values, 72 and 104, write a program to print out the corre-
+sponding two characters.
+3. For a 16-bit integer variable, can you assign the variable with an integer value of
+72368?
+4. Given the declaration double dbl_num = 123.456;, write a program that prints
+out the value of dbl_num in both floating-point and scientific notation formats.
+5. Writeaprogramthatcanprintoutthenumericvalueofthenewlinecharacter(\n). (Hint: assign ‘\n’ to a character variable.)
